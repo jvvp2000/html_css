@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+    color:white;
+    padding: 10px;
+    font-family: ChunkFiveRegular;
+    font-style: ;
+    text-transform: uppercase;
+    text-decoration: overline;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/chunkfive.eot');
+}
+
+   
+
+.home{
+    border: 10px solid white;
+    padding: inherit;
+    opacity: 1;
+    font-size: 20px;
+        
+}  
+.home:first-letter{
+    font-size: 200%;
+}
+.home:hover{
+    text-decoration: underline;
+}
+
+.botao {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: #f80707;}
+
+.botao:hover {
+    background-color: #665544;}
+
+.botao:active {
+    background-color: chocolate;}

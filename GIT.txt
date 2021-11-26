@@ -1,0 +1,7 @@
+cd
+
+git status
+git diff
+git add (nome ou .)
+git commit -m (mensagem)
+git push

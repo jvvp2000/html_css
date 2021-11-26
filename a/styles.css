@@ -1,0 +1,73 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    height: 4em;
+    
+    background-color: black;
+}
+
+.title {
+    flex-grow: 2;
+    padding: 2em;
+
+}
+
+
+h3{
+   
+    color: white;
+   
+}
+
+ul{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /*padding: 1em;*/
+}
+li{
+    
+    color: white;
+    margin: 0 0.5em 0 1em;
+    
+}
+li a{
+
+    color: white;
+    /*padding: 1em;  */  
+    text-decoration: none;   
+     
+}
+li a:hover{
+    background-color: gray;
+}
+
+li:last-child{
+    background-color: red;
+}
+
+
+
+.section-main{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 60%;
+    height: 20em;
+    margin: 0 auto;
+}
+
+.div-img {
+    background-image: url(/codar/assets/coding_.png);
+    background-repeat: no-repeat;
+    height: 10em;
+}
